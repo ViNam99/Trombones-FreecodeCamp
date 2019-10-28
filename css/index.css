@@ -115,6 +115,31 @@
 }
 
 
+/* footer */
+
+.footer__content {
+    width: 75%;
+    margin: 0 auto;
+    background-color: #DDDDDD;
+}
+
+.footer .footer__content ul {
+    margin-top: 10px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.footer .footer__content ul li {
+    list-style: none;
+    padding: 0 15px;
+}
+
+.footer .footer__content ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+
 /* Media Rule */
 
 @media screen and (max-width: 600px) {
