@@ -15,6 +15,11 @@
 
 .header {
     padding: 30px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 999;
 }
 
 .header img {
@@ -26,6 +31,23 @@
 .nav a {
     text-decoration: none;
     color: black;
+}
+
+
+/* features */
+
+.features__content {
+    width: 63%;
+    margin: 0 auto;
+}
+
+.features .features__content i {
+    font-size: 3em;
+    color: #FF8C00;
+}
+
+.features__item {
+    padding: 30px 0;
 }
 
 
