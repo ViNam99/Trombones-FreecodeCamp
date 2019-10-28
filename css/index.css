@@ -15,11 +15,7 @@
 
 .header {
     padding: 30px;
-    position: fixed;
     width: 100%;
-    top: 0;
-    left: 0;
-    z-index: 999;
 }
 
 .header img {
@@ -31,6 +27,20 @@
 .nav a {
     text-decoration: none;
     color: black;
+}
+
+
+/* Contact */
+
+.contact__content {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.contact__content form input {
+    width: 35%;
+    padding: 0 15px;
 }
 
 
