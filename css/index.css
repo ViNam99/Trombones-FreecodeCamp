@@ -5,3 +5,25 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+.wrapper {
+    background-color: #EEEEEE;
+}
+
+
+/* header */
+
+.header {
+    padding: 30px;
+}
+
+.header img {
+    width: 300px;
+    height: 100%;
+    display: block;
+}
+
+.nav a {
+    text-decoration: none;
+    color: black;
+}
